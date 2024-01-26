@@ -1,0 +1,65 @@
+/* opening page */
+#EnterPage{
+  background-color: #B7E5B4;
+}
+
+#opening {
+  text-align: center; /* Center the inline content */
+  margin: auto; /* Center the block-level content horizontally */
+  margin-top: 50px; /* Adjust the top margin as needed */
+}
+
+#opening img {
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+}
+
+h2, h1 {
+  font-size: 24px;
+}
+
+#logo{
+  width: 25%;
+  height: 25%;
+  border-radius: 60%;
+}
+
+#Enter{
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px; /* Adjust the value to control the roundness */
+}
+
+/* MEDIA QUERY FOR THE TABLET DEVICES */
+/* @media (max-width: 768px) {
+  h2, h1 {
+    font-size: 18px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+} */
+
+/* MEDIA QUERY FOR THE MOBILE DEVICES */
+
+/* @media (max-width: 480px) {
+
+  #opening{
+    margin-top: 500px;
+  }
+
+
+  h2, h1 {
+    font-size: 16px;
+  }
+
+  button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+} */
